@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!---Etiquetas semanticas-->
+    <!---HEADER: Etiqueta semantica para la cabecera de 
+    contenido-->
+
+    <header>
+
+    </header>
+
+    <!---MAIN: Etiqueta semantica para el contenido 
+     principal-->
+
+    <main>
+        <h1>
+            Display: Lo que mostramos en nuestra pantalla
+        </h1>
+        <article id="displayNone">
+            <h2>Display None</h2>
+            <p>Este tipo de display es
+                especial, porque nos permite
+                dejar de visualizar contenido
+                dentro de mi sitio.</p>
+            <p>Cuando ocupamos un
+                display none, las etiquetas dejan
+                de verse, pero sigue el código ahí.
+            </p>
+        </article>
+
+        <article id="displayBlock">
+            <h2>Display Block</h2>
+            <p>
+                El elemento genera
+                un cuadro del elemento
+                de bloque.
+            </p>
+            <p>
+                Significa que mi bloque (recuerda que todo
+                en HTML es un bloque), ocupa todo el
+                espacio disponible de izquierda a derecha,
+                o dicho de otra forma todo el renglón
+                del
+                componente padre.
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayBlock">
+                    h1
+                </h1>
+                <h1 class="displayBlock">
+                    h1
+                </h1>
+            </figure>
+
+        </article>
+
+        <article id="displayInLine">
+            <h2>Display InLine</h2>
+            <p>
+                El elemento genera uno o
+                más cuadros de elemento
+                en línea
+            </p>
+            <p>
+                Significa que
+                el contenedor o bloque se
+                adapta al ancho de su
+                contenido hij@.
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayInline">
+                    h1
+                </h1>
+                <h1 class="displayInline">
+                    h1
+                </h1>
+            </figure>
+
+        </article>
+
+        <article id="displayInLineBlock">
+            <h2>Display Inline-Block</h2>
+            <p>
+                Si tú le pones tamaño a
+                un display block,
+                funciona, pero sigue
+                ocupando todo el renglón.
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayBlockConTamanio">
+                    h1
+                </h1>
+                <h1 class="displayBlock">
+                    h1
+                </h1>
+            </figure>
+
+            <p>
+                Si tú le pones tamaño a
+                un display inline, ignora
+                las propiedadesde alto
+                (height) y ancho (width).
+
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayInlineConTamanio">
+                    h1
+                </h1>
+                <h1 class="displayInlineConTamanio">
+                    h1
+                </h1>
+            </figure>
+            <p>Esto puede ser
+                problemático si yo quiero
+                controlar el tamaño de mi
+                componente, y que el
+                contemnido esté en la misma
+                línea, patra eso existe el
+                display inline block.
+            </p>
+
+            <figure class="ejemplo">
+                <h1 class="displayInlineBlock">
+                    h1
+                </h1>
+                <h1 class="displayInlineBlock">
+                    h1
+                </h1>
+            </figure>
+        </article>
+
+        <article>
+            <header style="background-color: darkslateblue;">
+                <nav style="background-color: darkorange;
+                ">Nav</nav>
+            </header>
+            <main style="background-color: crimson;">
+
+                <article class="displayInLineBlock" style="background-color:burlywood;
+              ">Article</article>
+                <article class="displayInLineBloc" style="background-color: 
+              burlywood;
+              ">Article</article>
+                <article class="displayInLineBloc" style="background-color: 
+              burlywood;">Article</article>
+                <article class="displayInLineBloc" style="background-color: 
+              burlywood;">Article</article>
+
+            </main>
+            <footer style="background-color: chartreuse;">Footer</footer>
+        </article>
+
+        z<!--Flex y Grid que son para los hijos-->
+
+    </main>
+    <!---FOOTER: Etiqueta semantica para el pie de 
+     página-->
+
+</body>
+
+</html>
+
+<article></article>
+<article></article>
+<article></article>
+<article></article>

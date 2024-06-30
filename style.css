@@ -1,0 +1,62 @@
+
+/* Selector de tipo(etiqueta) 
+=> nombreEtiqueta {} */
+
+body{ 
+    /* Regla de CSS */
+
+    /* propiedad: valor*/ 
+    background-color: aqua;
+}
+
+/* Selector de clase(class) 
+=> .nombreClase {} */
+
+.ejemplo { 
+   width: 1000px;
+   height: 500px;
+   background-color: rgb(169, 169, 169);
+} 
+
+.displayBlock {
+    display: block;
+    background-color: rgb(204, 0, 255);
+}
+
+.displayBlockConTamanio {
+    display: block;
+    background-color: rgb(187, 255, 0);
+
+    width: 100px;
+    height: 100px;
+}
+
+.displayInline{
+    display: inline;
+    background-color: fuchsia;
+}
+
+.displayInlineConTamanio{
+    display: inline;
+    background-color: rgb(111, 0, 255);
+
+    width: 100px;
+    height: 100px;
+}
+
+.displayInlineBlock{
+    display: inline-block;
+    background-color:olivedrab;
+}
+
+.tamanio{
+    width: 300px;
+}
+
+.displayInlineBlockConTamanio{
+    display: inline-block;
+    background-color:olivedrab;
+
+    width: 100px;
+    height: 100px;
+}
